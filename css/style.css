@@ -882,7 +882,7 @@ input[type="checkbox"] {
     z-index: -2;
 }
 .banner-header-contact {
-    height: 20vh;
+    height: 15vh;
 }
 .banner-header h6 {
     font-size: 20px;
@@ -3225,4 +3225,7 @@ button.mfp-arrow {
     .text-right {
         text-align: center;
     }
+}
+.contact-card-box {
+    text-align: right;
 }

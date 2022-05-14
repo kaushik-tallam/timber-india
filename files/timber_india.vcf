@@ -1,0 +1,18 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Tallam;Kumar Kaushik;;;
+FN:TIMBER INDIA
+ORG:TIMBER INDIA;Teak and Hard Wood Dealers
+item1.EMAIL;type=INTERNET;type=pref:sales@timberindia.in
+item1.X-ABLabel:Email
+TEL;type=CELL;type=VOICE;type=pref:9177172277
+item2.ADR;type=pref:;;Bunglow No. 179\, NH-44\, Medchal Road\, Near Cantonment Check Post;Secunderabad;Telangana;500011;India
+item2.X-ABLabel:Depot
+X-SOCIALPROFILE;TYPE=WhatsApp:https://wa.me/+919177172277
+X-SOCIALPROFILE;type=Google:https://goo.gl/maps/Cs7d8hBfnWWPyeJj9
+X-SOCIALPROFILE;type=Facebook:https://www.facebook.com/timberindia1998
+X-SOCIALPROFILE;type=Instagram:https://www.instagram.com/timber_india
+item3.URL;type=pref:https://www.timberindia.in
+item3.X-ABLabel:website
+X-ABShowAs:COMPANY
+END:VCARD
