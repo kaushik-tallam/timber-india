@@ -881,6 +881,9 @@ input[type="checkbox"] {
     height: 50vh;
     z-index: -2;
 }
+.banner-header-contact {
+    height: 20vh;
+}
 .banner-header h6 {
     font-size: 20px;
     font-weight: 400;
@@ -924,6 +927,9 @@ input[type="checkbox"] {
     .banner-header {
         height: 30vh;
         margin-top: 70px;
+    }
+    .banner-header-contact {
+        height: 0px;
     }
     .banner-header h6 {
         font-size: 12px;
@@ -2182,7 +2188,7 @@ button.mfp-arrow {
     line-height: 1.2em;
 }
 .butn-dark a {
-    font-weight: 300;
+    font-weight: 500;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     background: #b19777;
@@ -2218,6 +2224,9 @@ button.mfp-arrow {
 }
 .butn-dark a:hover span {
     color: #fff;
+}
+.social-icon .butn-dark span {
+    padding-left: 10px;
 }
 /* light */
 .butn-light {
