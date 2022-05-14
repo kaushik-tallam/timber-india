@@ -436,15 +436,22 @@ input[type="checkbox"] {
     display: none !important;
 }
 .nav-scroll .logo-wrapper {
-    padding: 15px 70px 15px 150px;
+    padding: 15px 45px 15px 75px;
     background: #fff;
+}
+.nav-scroll .navbar-company-name {
+    display: block;
+}
+.navbar-company-name {
+    display: none;
 }
 .logo-wrapper {
     float: left;
     background: #fff;
     padding: 30px 50px;
 }
-.logo-wrapper .logo h2 {
+.logo-wrapper .logo h2,
+.navbar-company-name h2 {
     font-family: 'Oswald', sans-serif;
     font-size: 45px;
     font-weight: 400;
@@ -455,12 +462,19 @@ input[type="checkbox"] {
     letter-spacing: 9px;
     margin-bottom: 0;
 }
+.navbar-company-name h2 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}
 .logo-wrapper .logo h2 a i {
     color: #777;
     font-size: 20px;
     vertical-align: super;
 }
-.logo-wrapper .logo span {
+.logo-wrapper .logo span,
+.navbar-company-name span {
     display: block;
     font-family: 'Oswald', sans-serif;
     font-size: 12px;
@@ -3031,7 +3045,7 @@ button.mfp-arrow {
         margin-left: 0px;
     }
     .nav-scroll .logo {
-        width: 150px;
+        width: fit-content;
     }
     .logo-img {
         margin-bottom: 0px;
@@ -3130,6 +3144,18 @@ button.mfp-arrow {
 @media screen and (max-width: 767px) {
     .logo-wrapper .logo h2 {
         display: none;
+    }
+    .logo {
+        width: fit-content;
+    }
+    .navbar-company-name {
+        display: block;
+    }
+    .navbar-company-name h2 {
+        font-size: 20px;
+    }
+    .navbar-company-name span {
+        font-size: 10px;
     }
     .hero .intro h3 {
         font-size: 28px;
